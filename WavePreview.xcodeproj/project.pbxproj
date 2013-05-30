@@ -19,6 +19,12 @@
 		C5752AC41756615800BC3987 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5752AC31756615800BC3987 /* ViewController.m */; };
 		C5752AC71756615900BC3987 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5752AC51756615900BC3987 /* ViewController_iPhone.xib */; };
 		C5752ACA1756615900BC3987 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5752AC81756615900BC3987 /* ViewController_iPad.xib */; };
+		C5752AD21756895E00BC3987 /* 01 I Wear Black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5752AD01756895E00BC3987 /* 01 I Wear Black.mp3 */; };
+		C5752AD31756895E00BC3987 /* 02 Drop Dead Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */; };
+		C5752AD817568C8D00BC3987 /* SampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5752AD717568C8D00BC3987 /* SampleView.m */; };
+		C5752ADA1756B91A00BC3987 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752AD91756B91A00BC3987 /* AVFoundation.framework */; };
+		C5752ADC1756B92400BC3987 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752ADB1756B92400BC3987 /* AudioToolbox.framework */; };
+		C5752ADE1756C34B00BC3987 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752ADD1756C34B00BC3987 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,13 @@
 		C5752AC31756615800BC3987 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5752AC61756615900BC3987 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		C5752AC91756615900BC3987 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C5752AD01756895E00BC3987 /* 01 I Wear Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 I Wear Black.mp3"; sourceTree = "<group>"; };
+		C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Drop Dead Baby.mp3"; sourceTree = "<group>"; };
+		C5752AD617568C8D00BC3987 /* SampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleView.h; sourceTree = "<group>"; };
+		C5752AD717568C8D00BC3987 /* SampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleView.m; sourceTree = "<group>"; };
+		C5752AD91756B91A00BC3987 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C5752ADB1756B92400BC3987 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C5752ADD1756C34B00BC3987 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5752ADE1756C34B00BC3987 /* CoreMedia.framework in Frameworks */,
+				C5752ADC1756B92400BC3987 /* AudioToolbox.framework in Frameworks */,
+				C5752ADA1756B91A00BC3987 /* AVFoundation.framework in Frameworks */,
 				C5752AAB1756615600BC3987 /* UIKit.framework in Frameworks */,
 				C5752AAD1756615600BC3987 /* Foundation.framework in Frameworks */,
 				C5752AAF1756615600BC3987 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +74,9 @@
 		C5752A9E1756615400BC3987 = {
 			isa = PBXGroup;
 			children = (
+				C5752ADD1756C34B00BC3987 /* CoreMedia.framework */,
+				C5752ADB1756B92400BC3987 /* AudioToolbox.framework */,
+				C5752AD91756B91A00BC3987 /* AVFoundation.framework */,
 				C5752AB01756615600BC3987 /* WavePreview */,
 				C5752AA91756615600BC3987 /* Frameworks */,
 				C5752AA81756615600BC3987 /* Products */,
@@ -85,6 +104,7 @@
 		C5752AB01756615600BC3987 /* WavePreview */ = {
 			isa = PBXGroup;
 			children = (
+				C5752AD517568BCD00BC3987 /* Song Preview */,
 				C5752AB91756615700BC3987 /* AppDelegate.h */,
 				C5752ABA1756615700BC3987 /* AppDelegate.m */,
 				C5752AC21756615800BC3987 /* ViewController.h */,
@@ -99,6 +119,8 @@
 		C5752AB11756615600BC3987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C5752AD01756895E00BC3987 /* 01 I Wear Black.mp3 */,
+				C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */,
 				C5752AB21756615600BC3987 /* WavePreview-Info.plist */,
 				C5752AB31756615700BC3987 /* InfoPlist.strings */,
 				C5752AB61756615700BC3987 /* main.m */,
@@ -108,6 +130,15 @@
 				C5752AC01756615800BC3987 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5752AD517568BCD00BC3987 /* Song Preview */ = {
+			isa = PBXGroup;
+			children = (
+				C5752AD617568C8D00BC3987 /* SampleView.h */,
+				C5752AD717568C8D00BC3987 /* SampleView.m */,
+			);
+			path = "Song Preview";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +198,8 @@
 				C5752AC11756615800BC3987 /* Default-568h@2x.png in Resources */,
 				C5752AC71756615900BC3987 /* ViewController_iPhone.xib in Resources */,
 				C5752ACA1756615900BC3987 /* ViewController_iPad.xib in Resources */,
+				C5752AD21756895E00BC3987 /* 01 I Wear Black.mp3 in Resources */,
+				C5752AD31756895E00BC3987 /* 02 Drop Dead Baby.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +213,7 @@
 				C5752AB71756615700BC3987 /* main.m in Sources */,
 				C5752ABB1756615700BC3987 /* AppDelegate.m in Sources */,
 				C5752AC41756615800BC3987 /* ViewController.m in Sources */,
+				C5752AD817568C8D00BC3987 /* SampleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
