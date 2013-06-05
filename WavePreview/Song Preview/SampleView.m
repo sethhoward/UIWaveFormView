@@ -95,7 +95,7 @@
 // TODO: refactor
 - (void)calcCompression {
     // this seems to have the opposite effect than what we want? the larger the frame width the more detailed the drawing is.. thus slower
-    _compressionValue = round((_endSample - _startIndex)/(self.frame.size.width)) + kCompressionValue;
+    _compressionValue = round((_endSample - _startIndex)/(self.frame.size.width));
 }
 
 #pragma mark - Private

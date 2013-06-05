@@ -19,11 +19,10 @@
 		C5752AC41756615800BC3987 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5752AC31756615800BC3987 /* ViewController.m */; };
 		C5752AC71756615900BC3987 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5752AC51756615900BC3987 /* ViewController_iPhone.xib */; };
 		C5752ACA1756615900BC3987 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5752AC81756615900BC3987 /* ViewController_iPad.xib */; };
-		C5752AD21756895E00BC3987 /* 01 I Wear Black.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5752AD01756895E00BC3987 /* 01 I Wear Black.mp3 */; };
-		C5752AD31756895E00BC3987 /* 02 Drop Dead Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */; };
 		C5752AD817568C8D00BC3987 /* SampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5752AD717568C8D00BC3987 /* SampleView.m */; };
 		C5752ADA1756B91A00BC3987 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752AD91756B91A00BC3987 /* AVFoundation.framework */; };
 		C5752ADE1756C34B00BC3987 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752ADD1756C34B00BC3987 /* CoreMedia.framework */; };
+		C5D130CC175EC54600785439 /* 34 Pour Some Hot Sugar (Mims vs. Def Leppard).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5D130CB175EC54600785439 /* 34 Pour Some Hot Sugar (Mims vs. Def Leppard).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,13 +43,12 @@
 		C5752AC31756615800BC3987 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C5752AC61756615900BC3987 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		C5752AC91756615900BC3987 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		C5752AD01756895E00BC3987 /* 01 I Wear Black.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 I Wear Black.mp3"; sourceTree = "<group>"; };
-		C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Drop Dead Baby.mp3"; sourceTree = "<group>"; };
 		C5752AD617568C8D00BC3987 /* SampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleView.h; sourceTree = "<group>"; };
 		C5752AD717568C8D00BC3987 /* SampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleView.m; sourceTree = "<group>"; };
 		C5752AD91756B91A00BC3987 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C5752ADB1756B92400BC3987 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C5752ADD1756C34B00BC3987 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C5D130CB175EC54600785439 /* 34 Pour Some Hot Sugar (Mims vs. Def Leppard).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "34 Pour Some Hot Sugar (Mims vs. Def Leppard).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +115,7 @@
 		C5752AB11756615600BC3987 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C5752AD01756895E00BC3987 /* 01 I Wear Black.mp3 */,
-				C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */,
+				C5D130CB175EC54600785439 /* 34 Pour Some Hot Sugar (Mims vs. Def Leppard).mp3 */,
 				C5752AB21756615600BC3987 /* WavePreview-Info.plist */,
 				C5752AB31756615700BC3987 /* InfoPlist.strings */,
 				C5752AB61756615700BC3987 /* main.m */,
@@ -196,8 +193,7 @@
 				C5752AC11756615800BC3987 /* Default-568h@2x.png in Resources */,
 				C5752AC71756615900BC3987 /* ViewController_iPhone.xib in Resources */,
 				C5752ACA1756615900BC3987 /* ViewController_iPad.xib in Resources */,
-				C5752AD21756895E00BC3987 /* 01 I Wear Black.mp3 in Resources */,
-				C5752AD31756895E00BC3987 /* 02 Drop Dead Baby.mp3 in Resources */,
+				C5D130CC175EC54600785439 /* 34 Pour Some Hot Sugar (Mims vs. Def Leppard).mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"01 I Wear Black" ofType:@"mp3"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"34 Pour Some Hot Sugar (Mims vs. Def Leppard)" ofType:@"mp3"];
     NSURL *url = [[NSURL alloc] initFileURLWithPath:path];
     
     [self.sampleView drawWithAssetURL:url];
