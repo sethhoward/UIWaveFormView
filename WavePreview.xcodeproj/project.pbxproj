@@ -23,7 +23,6 @@
 		C5752AD31756895E00BC3987 /* 02 Drop Dead Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5752AD11756895E00BC3987 /* 02 Drop Dead Baby.mp3 */; };
 		C5752AD817568C8D00BC3987 /* SampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5752AD717568C8D00BC3987 /* SampleView.m */; };
 		C5752ADA1756B91A00BC3987 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752AD91756B91A00BC3987 /* AVFoundation.framework */; };
-		C5752ADC1756B92400BC3987 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752ADB1756B92400BC3987 /* AudioToolbox.framework */; };
 		C5752ADE1756C34B00BC3987 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5752ADD1756C34B00BC3987 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5752ADE1756C34B00BC3987 /* CoreMedia.framework in Frameworks */,
-				C5752ADC1756B92400BC3987 /* AudioToolbox.framework in Frameworks */,
 				C5752ADA1756B91A00BC3987 /* AVFoundation.framework in Frameworks */,
 				C5752AAB1756615600BC3987 /* UIKit.framework in Frameworks */,
 				C5752AAD1756615600BC3987 /* Foundation.framework in Frameworks */,
@@ -312,6 +310,7 @@
 				GCC_PREFIX_HEADER = "WavePreview/WavePreview-Prefix.pch";
 				INFOPLIST_FILE = "WavePreview/WavePreview-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -323,6 +322,7 @@
 				GCC_PREFIX_HEADER = "WavePreview/WavePreview-Prefix.pch";
 				INFOPLIST_FILE = "WavePreview/WavePreview-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -346,6 +346,7 @@
 				C5752ACF1756615900BC3987 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
