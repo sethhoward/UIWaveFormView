@@ -8,11 +8,8 @@
 #import "SampleView.h"
 #import <AVFoundation/AVFoundation.h>
 
-//When do we stop mirroring the wave drawing?
-#define kAllowForDoubleDrawValue 0.4f
 #define kCompressionValue	128.0f
 #define k44100Sample	 44100.0f
-#define kTimeDisplayIncrement 45
 
 @interface SampleView() <UIScrollViewDelegate>
 @property (nonatomic, strong) UIScrollView *scrollView;
